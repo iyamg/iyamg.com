@@ -12,7 +12,7 @@
 
 [[main]]
   name = "Bit's Complicated Blog"
-  pageRef = "posts"
+  pageRef = "bitscomplicated"
   weight = 10
 #
 #[[main]]

@@ -4,7 +4,7 @@ summary: These features will allow you to create code that flows when writing an
 date: 2024-10-20
 tags:
   - python
-slug: 03-functional-python
+slug: 2403
 ---
 Despite not being a pure functional language, a lot of praise that python receives are for features that stem from functional paradigms. Many are second nature to python programmers, but over the years I have seen people miss out on some important features. I gathered a few, along with examples, to give a brief demonstration of the convenience they can bring.
 

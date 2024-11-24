@@ -4,7 +4,7 @@ languageDirection = "ltr"
 weight = 1
 
 title = "Iya Mg"
-# copyright = "Copy, _right?_ :thinking_face:"
+copyright = "2024 Ia Mgvdliashvili"
 
 [params]
   dateFormat = "2 January 2006"

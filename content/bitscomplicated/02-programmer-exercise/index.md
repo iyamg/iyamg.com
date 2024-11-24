@@ -6,7 +6,7 @@ start_date: 2024-09-06
 tags:
   - beginner
   - learning
-slug: 02-programmer-exercise
+slug: 2402
 ---
 ## How do we navigate the myriad of concepts that make the code actually work?
 Growth journey of a software engineer is complex, and the sheer amount of directions you need to develop in can seem disorienting. 
