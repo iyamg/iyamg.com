@@ -11,7 +11,7 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "Bit's Complicated Blog"
+  name = "Bit's Complicated - Blog"
   pageRef = "bitscomplicated"
   weight = 10
 #
