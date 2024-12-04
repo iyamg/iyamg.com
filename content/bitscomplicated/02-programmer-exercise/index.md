@@ -4,8 +4,8 @@ summary: Solving this simple yet powerful problem will give you the kickstart to
 date: 2024-09-05
 start_date: 2024-09-06
 tags:
-  - beginner
   - learning
+  - junior
 slug: 2402
 ---
 ## How do we navigate the myriad of concepts that make the code actually work?
@@ -38,6 +38,3 @@ More important are the constraints around them - constraints which I consider es
 These constraints mean the process will be slower than following spelled out instructions, but slowing down and challenging ourselves is the point. Letting our brains construct the connections between processes and ideas results in the strong foundation we need to keep reaching higher.
 ## Next Steps
 I am working on a few suggestions to iteratively go deeper into the process. Let me know if you complete these and I'll share the new ones!
-
-Cover Photo by [Christophe Ferron](https://unsplash.com/@christopheferron?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/down-view-of-brown-metal-ladder-p0hjjT1O_J8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
-
