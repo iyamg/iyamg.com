@@ -4,7 +4,7 @@ tags:
   - opinion
   - lifecycle
 date: 2025-07-01
-slug: "2507"
+slug: "2501"
 summary: The word debt tells us nothing about what we’re supposed to do about it.
 ---
 
