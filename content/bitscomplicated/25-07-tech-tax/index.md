@@ -1,13 +1,14 @@
 ---
-title: “Tech debt” is a poor name, use “tax” instead - here's why
+title: Tech debt is a poor name, use tax instead - here's why
 tags:
   - opinion
   - lifecycle
 date: 2025-07-01
-slug: 2507
+slug: "2507"
 summary: The word debt tells us nothing about what we’re supposed to do about it.
 ---
-The term “tech debt”, is not doing us engineers any favours. It is as ambiguous and misleading as the word “legacy”. Of course we can find definitions that state otherwise, but both sound like there was a mistake made, something preventable, as opposed to something _inevitable._ 
+
+The term “tech debt” is not doing us engineers any favours. It is as ambiguous and misleading as the word “legacy”. Of course we can find definitions that state otherwise, but both sound like there was a mistake made, something preventable, as opposed to something _inevitable._ 
 
 It also sounds like something _you_ created, instead of upfront investment _everyone_ needs to make to keep things running smoothly. Everyone wants to escape the negative vibe and ends up ignoring the only productive meaning of the word - that you’ve gotta pay it off. 
   
