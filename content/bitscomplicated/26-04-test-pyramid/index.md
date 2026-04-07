@@ -1,13 +1,14 @@
 ---
-title: The Test Pyramid for non-developers
+title: The Testing Pyramid for non-developers
 tags:
   - softwareengineering
   - "#foreveryone"
-date: 2026-03-27
-slug: "2603"
+date: 2026-04-07
+slug: "2604"
 summary: Reliability issues that hinder system growth are not unique to generated code, and I'll guide you through understanding the Software Engineering concepts that help manage it. If you're a beginner or early intermediate developer, you will probably find this helpful too
 ---
-Out of all the things that transformed the digital landscape last year, one of my favorites is the inspiring way that professionals with no coding skills have delivered new indie software solving real-world problems. My ex-coworker [Lucie Papelier](https://www.linkedin.com/in/luciepapelier/)  built [Threadologie](https://apps.apple.com/at/app/threadologie-bead-pattern/id6755602806?l=en-GB), an app that generates beading patterns from photos and speeds up the beading process with interactive progress tracking. A few weeks back I talked at [Product Discovery & Delivery meetup](www.meetup.com/product-discovery-delivery-vienna/events/313064625), where we also listened to [Christoph Bodenstein](https://www.linkedin.com/in/christophbodenstein/)'s story about developing [_DocReady_](https://www.linkedin.com/company/docready-at/posts/?feedView=all), an app that saves independent doctors in Austria many sleepless nights of admin paperwork. On projects like this, it's important to keep momentum, but a few important obstacles might "damage" the pace.
+
+Out of all the things that transformed the digital landscape last year, one of my favorites is the inspiring way that professionals with no coding skills have delivered new indie software solving real-world problems. My ex-coworker [Lucie Papelier](https://www.linkedin.com/in/luciepapelier/)  built [Threadologie](https://apps.apple.com/at/app/threadologie-bead-pattern/id6755602806?l=en-GB), an app that generates beading patterns from photos and speeds up the beading process with interactive progress tracking. A few weeks back I talked at [Product Discovery & Delivery meetup](www.meetup.com/product-discovery-delivery-vienna/events/313064625), where we also listened to [Christoph Bodenstein](https://www.linkedin.com/in/christophbodenstein/)'s story about developing [_DocReady_](https://www.linkedin.com/company/docready-at/posts/?feedView=all), an app that saves independent doctors in Austria many sleepless nights of admin paperwork. On projects like this, it's important to keep momentum, but a few important obstacles can seriously hinder the pace.
 
 When discussing these new powers, people like to say that the new bottleneck in development is the task of coming up with new features, but there's a bigger one, less discussed, and I've also confirmed my hunch in personal conversations.
 
@@ -23,7 +24,7 @@ Before I explain how a test can be awful, well first need to understand an impor
 
 For the purpose of keeping the guide accessible and demonstrative, I will focus my examples purely on front-end.
 
-## The testing Pyramid
+## The Testing Pyramid
 
 A Software System will need _many_, _many_ tests, but they're not all created equal. If you understand how to categorize the tests, you will isolate the subsets where you can be involved. 
 
@@ -35,6 +36,7 @@ Now, you only need to check the ui to see how the *disabled* button *looks* when
 
 ### Integration tests
 When you are combining these fields into a registration *form*, you should only test single valid/invalid configurations for each fields, not all possible configurations for all fields. For example, when testing whether the submit button should be disabled or not, the test should only cover the scenario of a valid password, and one other scenario of single example of an invalid password. The rest is covered in the unit test.
+
 ### End-to-end (e2e) tests
 E2e tests typically focus on user scenarios and flow. They make sure that application as a whole makes sense. For a web app, you would use a tool like [playwright](https://playwright.dev/) to navigate to the website and perform actions that use would - type this, click here, such-and-such element should appear.
 
