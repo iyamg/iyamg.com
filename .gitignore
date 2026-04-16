@@ -3,3 +3,5 @@ public
 resources
 .idea/*
 layouts/partials/extend-head.html
+
+config/preview/params.toml
