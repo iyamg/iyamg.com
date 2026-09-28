@@ -1,6 +1,6 @@
 ---
 title: My first Unconference - experiencing Open Space
-date: 2026-10-28
+date: 2026-09-28
 slug: 2610-socrates-linz
 summary: A gathering that celebrates conversations
 ---
